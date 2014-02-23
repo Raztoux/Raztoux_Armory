@@ -1,0 +1,4 @@
+respawn = 3;
+respawndelay = 3;
+respawnVehicleDelay = 10;
+respawnOnStart = 1;
