@@ -1,0 +1,38 @@
+author = "Raztoux";
+onLoadName = "Armex : TDM";
+onLoadMission = "Test, découverte du jeu et support de recrutement!";
+loadScreen = "Media\Armex.jpg";
+disableChannels[] = {0,6};
+respawn = 3;
+respawndelay = 3;
+respawnOnStart = 1;
+
+class Header
+{
+    gameType = Sandbox;
+    minPlayers = 0;
+    maxPlayers = 24;
+};
+
+class CfgIdentities
+{
+    class Timonas
+    {
+        name = "Timonas Delinikas";
+        face = "WhiteHead_05";
+        glasses = "None";
+        speaker = "Male01_F";
+        pitch = 2;
+    };
+};
+
+#include "VAS\menu.hpp"
+#include "VVS\menu.h"
+#include "taw_vd\dialog.hpp"
+
+	class CfgFunctions
+		{
+			#include "VAS\cfgfunctions.hpp"
+			#include "VVS\Functions.h"
+			#include "taw_vd\CfgFunctions.hpp"
+		};
