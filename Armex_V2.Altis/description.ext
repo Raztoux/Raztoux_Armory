@@ -1,5 +1,7 @@
+overviewText = "<t align='center'>Équipez vous, choisissez votre entrainement, partez en mission et tentez de repousser vos limites!<br /><br />Fantasmex - Pour L'élite<br /><t align='center'>Test, Decouverte et Entrainement<br /><br />www.altisrp.fr<br /></t>";
+overviewPicture = "Media\Armex_overview.jpg";
 author = "Raztoux";
-onLoadName = "Armex : TDM";
+onLoadName = "Fantasmex";
 onLoadMission = "Test, découverte du jeu et support de recrutement!";
 loadScreen = "Media\Armex.jpg";
 disableChannels[] = {0,6};
@@ -7,10 +9,14 @@ respawn = 3;
 respawndelay = 3;
 respawnOnStart = 1;
 
+#include "VAS\menu.hpp"
+#include "VVS\menu.h"
+#include "taw_vd\dialog.hpp"
+
 class Header
 {
     gameType = Sandbox;
-    minPlayers = 0;
+    minPlayers = 1;
     maxPlayers = 24;
 };
 
@@ -25,10 +31,6 @@ class CfgIdentities
         pitch = 2;
     };
 };
-
-#include "VAS\menu.hpp"
-#include "VVS\menu.h"
-#include "taw_vd\dialog.hpp"
 
 	class CfgFunctions
 		{
