@@ -1,6 +1,7 @@
 /*
 
-Téléportation
+	Teleport system
+	By Blitz
 
 */
 

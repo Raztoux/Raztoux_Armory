@@ -34,6 +34,17 @@
 			<Russian>Вещи</Russian>
 			<Spanish>Articulos</Spanish>
 		</Key>
+		<Key ID="STR_CFG_FIREFLYBASE">
+			<Original>Altis HQ</Original>
+			<German>Altis HQ</German>
+			<French>Altis HQ</French>
+			<Polish>Altis HQ</Polish>
+			<Portuguese>Altis HQ</Portuguese>
+			<Italian>Altis HQ</Italian>
+			<Czech>Altis HQ</Czech>
+			<Russian>Altis HQ</Russian>
+			<Spanish>Altis HQ</Spanish>
+		</Key>
 		<Key ID="STR_VAS_Main_Backpacks">
 			<Original>Backpacks</Original>
 			<German>Rucksäcke</German>

@@ -5,9 +5,11 @@ onLoadName = "Fantasmex";
 onLoadMission = "Test, découverte du jeu et support de recrutement!";
 loadScreen = "Media\Armex.jpg";
 disableChannels[] = {0,6};
-respawn = 3;
+respawn = BASE;
 respawndelay = 3;
 respawnOnStart = 1;
+disabledAI = true;
+respawnDialog = 1;
 
 #include "VAS\menu.hpp"
 #include "VVS\menu.h"
@@ -32,9 +34,33 @@ class CfgIdentities
     };
 };
 
-	class CfgFunctions
-		{
-			#include "VAS\cfgfunctions.hpp"
-			#include "VVS\Functions.h"
-			#include "taw_vd\CfgFunctions.hpp"
-		};
+class CfgFunctions
+	{
+		#include "VAS\cfgfunctions.hpp"
+		#include "VVS\Functions.h"
+		#include "taw_vd\CfgFunctions.hpp"
+	};
+	
+class CfgRadio
+{
+   sounds[] = {};
+   
+   class MissionWin
+   {
+      name = "MissionWin";
+      sound[] = {"Media\MissionWin.ogg", db+0, 1.0};
+      title = "Félicitation soldat, l'objectif à été accomplie";
+   };
+   class RecoOne
+   {
+      name = "RecoOne";
+      sound[] = {"Media\RecoOne.ogg", db+0, 1.0};
+      title = "Contact perdu avec Reco-One, quittez les lieux immédiatement !";
+   };
+    class Task_2
+   {
+      name = "Task_2";
+      sound[] = {"Media\Task_2.ogg", db+0, 1.0};
+      title = "Rejoignez la ville de Gravia pour finir votre exfiltration";
+   };
+};
