@@ -64,3 +64,8 @@ class CfgRadio
       title = "Rejoignez la ville de Gravia pour finir votre exfiltration";
    };
 };
+
+titleParam2 = "Mode de jeu";
+valuesParam2[] = {0,1};
+defValueParam2 = 1;
+textsParam2[] = {"PvP","PvE"};
