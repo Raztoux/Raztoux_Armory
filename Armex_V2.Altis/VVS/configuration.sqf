@@ -38,5 +38,5 @@ VVS_R_Air = [];
 VVS_R_Ship = [];
 VVS_R_Armored = [];
 VVS_R_Submarine = [];
-VVS_R_Autonomous = ["O_UGV_01_rcws_F"];
+VVS_R_Autonomous = [];
 VVS_R_Support = [];
