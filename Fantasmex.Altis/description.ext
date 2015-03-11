@@ -24,9 +24,9 @@ class Header
 
 class CfgIdentities
 {
-    class Timonas
+    class Briseis
     {
-        name = "Timonas Delinikas";
+        name = "Briseis Alto";
         face = "WhiteHead_05";
         glasses = "None";
         speaker = "Male01_F";
