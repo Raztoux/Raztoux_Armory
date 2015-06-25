@@ -65,7 +65,6 @@ class Mission
 		"A3_Data_F",
 		"A3_Modules_F_Curator_Curator",
 		"A3_Modules_F_Curator_Lightning",
-		"CUP_Creatures_People_Military_DummyInfantrySet",
 		"A3_Missions_F_Curator"
 	};
 	addOnsAuto[]=
@@ -5144,7 +5143,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14639.365,17.91,16760.096};
+					position[]={14640.14,17.91,16761.332};
 					azimut=34.5868;
 					class args
 					{
@@ -5187,7 +5186,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14641.008,17.91,16760.436};
+					position[]={14641.82,17.91,16762.531};
 					azimut=34.586838;
 					class args
 					{
@@ -5254,7 +5253,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14642.666,17.91,16761.672};
+					position[]={14642.898,17.91,16764.924};
 					azimut=34.5868;
 					class args
 					{
